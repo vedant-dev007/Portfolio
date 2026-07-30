@@ -28,5 +28,3 @@ npm run deploy
 Live site: https://vedant-dev007.github.io/Portfolio/
 
 In GitHub → **Settings → Pages**, source should be the `gh-pages` branch and `/ (root)`.
-
-# Portfolio
