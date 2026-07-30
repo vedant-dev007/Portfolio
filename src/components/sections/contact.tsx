@@ -13,6 +13,7 @@ import { Reveal } from "@/components/effects/reveal";
 import { Button } from "@/components/ui/button";
 import { GithubIcon, LinkedinIcon } from "@/components/icons/social";
 import { siteConfig } from "@/data/site";
+import Link from "next/link";
 
 export function Contact() {
   const [sent, setSent] = useState(false);
@@ -111,10 +112,10 @@ export function Contact() {
                   </a>
                 </Button>
                 <Button asChild variant="outline" size="sm">
-                  <a href={siteConfig.resumeUrl}>
+                  <Link href={siteConfig.resumeUrl}>
                     <Download className="h-4 w-4" />
                     Resume
-                  </a>
+                  </Link>
                 </Button>
               </div>
 

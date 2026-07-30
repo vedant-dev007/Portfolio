@@ -26,7 +26,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vedant-portfolio.vercel.app"),
+  metadataBase: new URL("https://vedant-dev007.github.io/Portfolio"),
   title: {
     default: `${siteConfig.name} | ${siteConfig.title}`,
     template: `%s | ${siteConfig.name}`,

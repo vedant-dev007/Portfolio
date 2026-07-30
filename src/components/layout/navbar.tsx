@@ -7,6 +7,7 @@ import { navLinks, siteConfig } from "@/data/site";
 import { Button } from "@/components/ui/button";
 import { GithubIcon, LinkedinIcon } from "@/components/icons/social";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
@@ -66,10 +67,10 @@ export function Navbar() {
             <LinkedinIcon className="h-4 w-4" />
           </a>
           <Button asChild size="sm" variant="secondary">
-            <a href={siteConfig.resumeUrl}>
+            <Link href={siteConfig.resumeUrl}>
               <Download className="h-3.5 w-3.5" />
               Resume
-            </a>
+            </Link>
           </Button>
           <Button asChild size="sm">
             <a href="#contact">Hire Me</a>

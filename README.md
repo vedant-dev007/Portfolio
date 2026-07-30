@@ -17,11 +17,16 @@ Open [http://localhost:3000](http://localhost:3000).
 - Projects: `src/data/projects.ts`
 - Skills / services: `src/data/*`
 
-## Scripts
+## Deploy to GitHub Pages
 
-- `npm run dev` — development server
-- `npm run build` — production build
-- `npm run start` — start production server
-- `npm run lint` — ESLint
+This is a **Next.js** app (not CRA), so it deploys a static export to the `out/` folder:
+
+```bash
+npm run deploy
+```
+
+Live site: https://vedant-dev007.github.io/Portfolio/
+
+In GitHub → **Settings → Pages**, source should be the `gh-pages` branch and `/ (root)`.
 
 # Portfolio
